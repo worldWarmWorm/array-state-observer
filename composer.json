@@ -1,0 +1,21 @@
+{
+    "name": "www/array-state-observer",
+    "description": "Compute difference between two states of same array",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "v.davydkin",
+            "email": "st.valeriq@gamil.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "www\\array-state-observer": "src/"
+        }
+    }
+}
