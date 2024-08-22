@@ -1,5 +1,5 @@
 {
-    "name": "www/array-state-observer",
+    "name": "world-warm-worm/array-state-observer",
     "description": "Compute difference between two states of same array",
     "type": "library",
     "license": "Apache-2.0",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "www\\array-state-observer": "src/"
+            "world-warm-worm\\array-state-observer": "src/"
         }
     }
 }
