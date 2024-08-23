@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "world-warm-worm\\array-state-observer\\": "src/"
+            "WorldWarmWorm\\ArrayStateObserver\\": "src/"
         }
     }
 }
