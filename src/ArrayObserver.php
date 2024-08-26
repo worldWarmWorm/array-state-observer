@@ -38,7 +38,6 @@ abstract class ArrayObserver implements Observable
 
   abstract protected function observe(array $before, array $after): self;
 
-
   public static function init(array $before, array $after): self
   {
     return (new static())->observe($before, $after);

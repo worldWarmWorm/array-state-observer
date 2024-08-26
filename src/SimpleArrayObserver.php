@@ -4,11 +4,10 @@ namespace WorldWarmWorm\ArrayStateObserver;
 
 final class SimpleArrayObserver extends ArrayObserver
 {
-
   /**
    * @param array<int|string|null, int|string|null> $before
    * @param array<int|string|null, int|string|null> $after
-   * @return $this
+   * @return SimpleArrayObserver
    */
   public function observe(array $before, array $after): self
   {
