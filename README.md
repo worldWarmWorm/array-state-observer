@@ -3,6 +3,7 @@
 ### Content
 * [Installation](#installation)
 * [Call and using library](#call-and-using-library)
+* [GitHub](#github)
 
 ### Installation
 array-state-observer can be installed by using [Composer](https://getcomposer.org), just run this command in your project:
@@ -21,7 +22,7 @@ require_once('vendor/autoload.php');
 
 use WorldWarmWorm\ArrayStateObserver\SimpleArrayObserver;
 
-// we have some dummy initial data. lat it be three ids of something
+// we have some dummy initial data. let it be three ids of something
 $before = [1, 2, 3];
 
 // let's change initial data through some job with it
@@ -66,3 +67,7 @@ var_dump(SimpleArrayObserver::init($before, $after)->deleted());
 */
 
 ```
+
+### GitHub
+
+You are welcome to [array-state-observer ](https://github.com/worldWarmWorm/array-state-observer)
