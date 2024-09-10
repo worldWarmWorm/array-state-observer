@@ -43,19 +43,16 @@ abstract class ArrayObserver implements Observable
     return (new static())->observe($before, $after);
   }
 
-  /** @todo учесть что значения могут остаться, а ключи поменяться */
   protected function isAllAdded(array $before, array $after): bool
   {
     return empty($before) && !empty($after);
   }
 
-  /** @todo учесть что значения могут остаться, а ключи поменяться */
   protected function isAllDeleted(array $before, array $after): bool
   {
     return !empty($before) && empty($after);
   }
 
-  /** @todo учесть что значения могут остаться, а ключи поменяться */
   protected function hasPartiallyChanges(array $before, array $after): bool
   {
     return $before !== $after && !empty($before) && !empty($after);
