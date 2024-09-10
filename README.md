@@ -1,9 +1,13 @@
 # array-state-observer
 
 ### Content
+* [About](#about)
 * [Installation](#installation)
 * [Call and using library](#call-and-using-library)
 * [GitHub](#github)
+
+### About
+This library can help you in situation when you have an array and it gonna be change after some handling and you want to catch those changes for insert/update/delete them into a table of database (for example). May be it will need you for something else.
 
 ### Installation
 array-state-observer can be installed by using [Composer](https://getcomposer.org), just run this command in your project:
@@ -69,5 +73,4 @@ var_dump(SimpleArrayObserver::init($before, $after)->deleted());
 ```
 
 ### GitHub
-
 You are welcome to [array-state-observer ](https://github.com/worldWarmWorm/array-state-observer)

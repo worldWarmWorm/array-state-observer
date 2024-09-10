@@ -2,6 +2,17 @@
 
 namespace WorldWarmWorm\ArrayStateObserver;
 
+/**
+ * SimpleArrayObserver works with simple arrays like those bellow
+ *
+ * $array = [1, 2, 3, [...n]]
+ * $array2 = [
+ *    'cat' => 'Jack',
+ *    'dog' => 'Bob',
+ *    'horse' => 'Chuck',
+ *    [...n]
+ *  ]
+ */
 final class SimpleArrayObserver extends ArrayObserver
 {
   /**
